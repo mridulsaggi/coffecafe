@@ -1,0 +1,222 @@
+html{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    background-color:#FFE5D9;
+}
+.nav{
+    position: sticky;
+    margin-top: 2.5rem;
+    height: 2rem;
+    padding: 0.2rem;
+    /* border:.15rem solid white;
+    border-radius: 1.5rem;
+    background-color: #3C493F; */
+    color:#F0F7F4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color:#74146c;
+    text-decoration: none;
+    margin: 7rem;
+    padding: .2rem;
+    font-size: 2rem;
+}
+.nav a:hover{
+    background-color:#F0F7F4;
+    border-radius: 1rem;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+}
+.text{
+    margin-left: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-size: 8rem;
+    text-transform: capitalize;
+}
+.hd{
+    font-family:'Delicious Handrawn', cursive;
+    font-size: 2.5rem;
+    margin-left:12rem;
+    text-transform: capitalize;
+}
+.main{
+    /* position:relative;
+    width:100%;
+    height:50rem;
+    background: url('ll.png') no-repeat;
+    background-size:cover;
+    background-position: 0 -42rem;
+    background-attachment: fixed; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FEC5BB;
+    color: #74146c;
+    border: .2rem solid #74146c;
+    border-radius: .4rem;
+    margin:10rem auto;
+    width:80%;
+}
+/* font-family: 'Big Shoulders Stencil Text', cursive;
+font-family: 'Delicious Handrawn', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Stylish', sans-serif; */
+#img1{
+    height: 30rem;
+    width: 30rem;
+    
+}
+.intro{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color: #FFD7BA;
+    font-size: 6rem;
+    width:80%;
+    border: .2rem solid #ffab36;
+    font-family: 'Stylish', sans-serif;;
+    margin: 20rem auto;
+    text-transform: capitalize;
+    color: #ffab36;
+}
+.heading{
+    font-family: 'Stylish', sans-serif ;
+    font-size: 8rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+.nav img{
+    height:5rem;
+    width:5rem;
+}
+.pic{
+    width:30rem;
+    height: 30rem;
+}
+.about{
+    margin:10rem auto;
+}
+.hed{
+    font-size: 10rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.about-inside{
+    width:80%;
+    margin:2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+    font-family:'Delicious Handrawn', cursive;;
+}
+.atext{
+    margin: 2rem;
+    padding: 1rem;
+    font-size: 2rem;
+}
+.about img{
+    height: 45rem;
+    width:45rem;
+}
+/* @media (max-width:1200px){
+   .atext{
+    font-size:1.5rem;
+   }
+} */
+.menu{
+    width:80%;
+    margin: auto;
+    border-radius: 3rem;
+}
+.mhd{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10rem;
+}
+.items{
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    display:flex;
+   justify-content: center;
+}
+.subhd{
+    text-align: center;
+    font-family: 'Stylish', sans-serif; 
+    font-size: 5rem;
+}
+.mcont img{
+    margin: 2rem;
+    height: 35rem;
+    width:35rem;
+}
+.mcont{
+    margin: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #D8E2DC;
+    border:.3rem solid white;
+    width:30%;
+}
+@media (max-width:1200px){
+    html{
+        font-size: 55%;
+    }
+}
+@media (max-width:1084px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:1084px){
+   .atext{
+    font-size: 1.5rem;
+   }
+}
+@media (max-width:720px){
+    html{
+        font-size: 40%;
+    }
+}
+@media (max-width:590px){
+    html{
+        font-size: 30%;
+    }
+}
+@media (max-width:460px){
+    html{
+        font-size: 20%;
+    }
+}
+@media (max-width:320px){
+    html{
+        font-size: 15%;
+    }
+}
+@media (max-width:240px){
+    html{
+        font-size: 10%;
+    }
+}
+@media (max-width:143px){
+    html{
+        font-size: 5%;
+    }
+}
